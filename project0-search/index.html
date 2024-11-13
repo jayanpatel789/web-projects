@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Search</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google font for roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <ul class="list">
+      <li class="list-item">
+        <a class="link" href="imageSearch.html">Image Search</a>
+      </li>
+      <li>
+        <a class="link" href="advancedSearch.html">Advanced Search</a>
+      </li>
+    </ul>
+  </header>
+
+  <main>
+    <img class="img" src="googleLogo.png" alt="Google Logo">
+
+    <form class="search-input" action="https://google.com/search">
+      <div class="searchbar">
+        <span>
+          <img class="icon" src="magnifyingGlass.png" alt="Magnifying Glass Icon">
+        </span>
+        <input class="text-input" type="text" name="query">
+      </div>
+
+      <div class="button-container">
+        <button class="button" type="submit" name="btnK">Google Search</button>
+        <button class="button" type="submit" name="btnI">I'm feeling lucky</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-text">Created by Jayan Patel for CS50W</p>
+  </footer>
+</body>
+
+</html>
